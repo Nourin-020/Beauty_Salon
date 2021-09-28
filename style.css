@@ -1,0 +1,158 @@
+*{
+  font-family: 'Poppins';
+}
+/* Top bar Start */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+.top-social{
+   text-align: right;  
+   list-style: none;  
+   text-decoration: none;  
+}
+.top-social a{
+  color:#fff;
+}
+.top-bar{
+  height:40px;
+  background:#ec5598;
+}
+.top-bar .row{
+ font-size:13px;
+ color:#fff;
+}
+.top-menu{
+  margin-top:10px;
+}
+/* Top bar End */
+/* Navbar Start */
+.navbar-light .navbar-nav .nav-link {
+  font-size:13px;
+  font-weight: bold;
+  color:#503a45;
+}
+.carousel-caption h1{
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+.carousel-caption{
+  text-align: left;
+  width:40%;
+  bottom:200px;
+  color:#4b3941;
+}
+.btn1{
+background:#ec5598;
+color:white;
+padding:15px;
+}
+.btn2{
+  background:#4b3941;
+  color:white;
+  padding:15px;
+}
+.carousel-caption .span1{
+color:#ec5598;
+}
+.carousel-caption .span2{
+  font-weight: bold;
+}
+/* Navbar End */
+/* About Us Start */
+#about{
+  width:80%;
+}
+.about-img{
+  width:100%;
+}
+#about h1{
+  font-size:45px;
+  letter-spacing: 2px;
+}
+#about p{
+  margin-top:20px;
+  text-align: justify;
+}
+#about .row{
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+.title{
+  font-size:45px;
+  letter-spacing: 2px;
+  color:#ec5598;
+}
+#about i{
+  font-size:25px;
+  letter-spacing: 3px;
+  font-family: 'Bilbo Swash Caps';
+}
+#about .about-para{
+  color:#4b3941;
+  font-weight: bold;
+  font-size:16px;
+}
+/* About Us End */
+/* Why Spa Start */
+#why_spa{
+  background:url('images/bg-1.png');
+  background-repeat:no-repeat;
+  background-size: 100% 800px;
+  padding-bottom:150px;
+}
+.separator{
+  padding:30px;
+}
+.lines{
+  width:264px;
+  height: 30px;
+  position:relative;
+  margin:auto;
+}
+.lines::after, .lines::before{
+content:'';
+position:absolute;
+margin:auto;
+height:2px;
+background:#ec5598;
+width:45%;
+top:45%;
+}
+.lines::after{
+  left:-35px;
+}
+.lines::before{
+  right:-35px;
+}
+.spa_img{
+  width:353px;
+  border-radius: 100%;
+}
+.spa-right{
+  text-align:right;
+  margin-bottom:50px;
+}
+.spa-right img{
+  width:70px;
+}
+.spa-left{
+  text-align:left;
+  margin-bottom:50px;
+}
+.spa-left img{
+  width:70px;
+}
+.sp-2{
+padding-right:40px;
+}
+.sp-3{
+  padding-left:40px;
+}
+/* Why Spa End */
