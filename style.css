@@ -2,15 +2,6 @@
   font-family: 'Poppins';
 }
 /* Top bar Start */
-.affix {
-  top: 0;
-  width: 100%;
-  z-index: 9999 !important;
-}
-
-.affix + .container-fluid {
-  padding-top: 70px;
-}
 .top-social{
    text-align: right;  
    list-style: none;  
@@ -181,3 +172,52 @@ padding-right:55px;
   border:2px solid #ec5598;
 }
 /* Our Expert End */
+/* Contact Us Start */
+#contact{
+  margin-top:128px;
+}
+.contact-right-image{
+  font-size:67px;
+  color: white;
+}
+.contact-right-content{
+  color:white;
+  font-size:20px;
+}
+.contact-right-up{
+  padding: 100px 17px 0px 117px;
+}
+.contact-right-full{
+  padding: 0px 17px 0px 117px;
+}
+#contact .contact-right{
+  background-image:linear-gradient(rgba(250, 75, 154, 0.9),rgba(250, 75, 154,0.9)),url('images/contactmap.png');
+  background-position:center;
+  background-size:cover;
+  position:relative;
+}
+.contact-right-bottom{
+  color:white;
+  font-size:20px;
+}
+.contact-bottom-right{
+  padding: 0px 4px 0px 96px;
+}
+.form-left{
+  padding-top:115px;
+  background:#F5F6F6;
+}
+.form-left button{
+  background:#ec5598;
+  border:1px solid #ec5598;
+  color:white;
+  padding:18px 40px 18px 40px;
+  font-size:18px;
+  font-weight:bold;
+}
+.form-left textarea{
+  width: 100%;
+  height: 112px;
+  border: 1px solid #CED4DA;
+}
+/* Contact Us End */
