@@ -1,7 +1,18 @@
 *{
   font-family: 'Poppins';
 }
+html,body{
+  scroll-behavior: smooth;
+}
 /* Top bar Start */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding-top: 20px;
+}
+
 .top-social{
    text-align: right;  
    list-style: none;  
@@ -59,6 +70,7 @@ color:#ec5598;
 /* About Us Start */
 #about{
   width:80%;
+  margin: auto;
 }
 .about-img{
   width:100%;
@@ -175,6 +187,7 @@ padding-right:55px;
 /* Contact Us Start */
 #contact{
   margin-top:128px;
+  margin-bottom:100px;
 }
 .contact-right-image{
   font-size:67px;
@@ -221,3 +234,28 @@ padding-right:55px;
   border: 1px solid #CED4DA;
 }
 /* Contact Us End */
+/* Footer Start */
+#footer{
+  margin-top:-44px;
+}
+#footer .container-fluid{
+  background:#000;
+  color:#fff;
+}
+.col-lg-3 ul li a{
+  list-style: none;
+  text-decoration: none;
+  color:#fff;
+  margin-left: -30px;;
+}
+.col-lg-3 ul li{
+  list-style: none;
+}
+#footer h5{
+  color:#ec5598;
+}
+#footer button{
+  background:#ec5598;
+  color:white;
+}
+/* Footer End */

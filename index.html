@@ -46,7 +46,7 @@
   </section>
   <!-- Top bar End  -->
   <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="myHeader" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -469,7 +469,39 @@
   </section>
   <!-- Contact Us End -->
 
-
+<!-- Footer Start -->
+<footer id="footer">
+  <div class="container-fluid p-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-5">
+         <h5>About Us</h5>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quo sequi, aperiam repudiandae earum doloremque!</p>
+         <button type="button" class="btn btn-bg">Read More</button>
+       </div>
+       <div class="col-lg-3">
+         <h5>Menue's</h5>
+         <ul>
+           <li><a href="#home">HOME</a></li>
+           <li><a href="#about">ABOUT</a></li>
+           <li><a href="#why_spa">WHY SPA</a></li>
+           <li><a href="#service">OUR SERVICE'S</a></li>
+           <li><a href="#expert">OUR EXPERT'S</a></li>
+           <li><a href="#contact">CONTACT</a></li>
+         </ul>
+       </div>
+       <div class="col-lg-4">
+         <h5>Don't Forget To Subscribe</h5>
+         <div class="mb-3">
+           <input type="email" class="form-control"><br>
+           <button type="button" class="btn btn-bg">Subscribe</button>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+</footer>
+<!-- Footer End -->
 
 
 
@@ -478,6 +510,20 @@
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("myHeader");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 </body>
 
 </html>
