@@ -23,6 +23,7 @@ html,body{
 }
 .top-bar{
   height:40px;
+  width:100%;
   background:#ec5598;
 }
 .top-bar .row{
@@ -34,6 +35,9 @@ html,body{
 }
 /* Top bar End */
 /* Navbar Start */
+#myHeader{
+  width:100%;
+}
 .navbar-light .navbar-nav .nav-link {
   font-size:13px;
   font-weight: bold;
