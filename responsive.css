@@ -1,6 +1,48 @@
 @media only screen and (min-width: 320px) and (max-width:575px ){
+    ul li{
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    #about {
+        margin-top: -76px;
+    }
+    #about h1 {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #about i {
+        font-size: 18px;
+    }
+    #about .about-para {
+        font-size: 14px;
+    }
+    #about p {
+        margin-top: 16px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .btn1 {
+        padding: 9px 15px 9px 15px;
+        font-size: 11px;
+    }
+    .btn2 {
+        padding: 9px 15px 9px 15px;
+        font-size: 11px;
+    }
     #why_spa {
         background-size: 100% 1993px;
+        margin-top: -46px;
+        margin-bottom: 43px;
     }
     .carousel-inner{
         display:none;
@@ -31,6 +73,38 @@
     }
 }
 @media only screen and (min-width: 576px) and (max-width:767px ){
+    ul li{
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    #about {
+        margin-top: -76px;
+    }
+    #about h1 {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #about i {
+        font-size: 18px;
+    }
+    #about .about-para {
+        font-size: 14px;
+    }
+    #about p {
+        margin-top: 16px;
+        font-size: 14px;
+        text-align: left;
+    }
     .carousel-inner{
         display:none;
     }
@@ -55,6 +129,38 @@
     }
 }
 @media only screen and (min-width: 768px) and (max-width:991px ){
+    ul li{
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    #about {
+        margin-top: -76px;
+    }
+    #about h1 {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #about i {
+        font-size: 18px;
+    }
+    #about .about-para {
+        font-size: 12px;
+    }
+    #about p {
+        margin-top: 16px;
+        font-size: 12px;
+        text-align: left;
+    }
     #why_spa {
         background-size: 100% 1107px;
         padding-bottom: 0px;
@@ -91,8 +197,50 @@
         text-align: center;
         margin-left: -43px;
     }
+    .btn1 {
+        padding: 9px;
+    }
+    .btn2 {
+        padding: 9px;
+    }
+
 }
 @media only screen and (min-width: 992px) and (max-width:1199px ){
+    ul li{
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    #about {
+        margin-top: -76px;
+    }
+    #about h1 {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #about i {
+        font-size: 18px;
+    }
+    #about .about-para {
+        font-size: 12px;
+    }
+    #about p {
+        margin-top: 16px;
+        font-size: 12px;
+        text-align: left;
+    }
     .carousel-caption {
         bottom: 105px;
     }
@@ -114,6 +262,12 @@
     .contact-bottom-right {
         padding: 1px 2px 0px 51px;
     }
+    .contact-right-bottom h1{
+        font-size:20px;
+    }
+    .form-left button {
+        padding: 5px 30px 7px 30px
+    }
 
 }
 @media only screen and (min-width: 1200px) and (max-width:1399px ){
@@ -121,7 +275,7 @@
 }
 @media only screen and (min-width: 1400px) and (max-width:1600px ){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1389px;
+        max-width: 1283px;
     }
 
 }
