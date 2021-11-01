@@ -206,11 +206,54 @@
 
 }
 @media only screen and (min-width: 992px) and (max-width:1199px ){
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 11px;
+    }
+    .btn1{
+       padding:10px;
+       font-size: 11px;
+    }
+    .btn2{
+        padding:10px;
+        font-size: 11px;
+     }
+     .about-img {
+        width: 90%;
+        margin:auto;
+    }
+    .spa_img {
+        width: 267px;
+        margin: auto;
+    }
+    .spa2 {
+        width: 89%;
+        margin:auto;
+    }
+    .spa-left {
+        text-align: left;
+    }
+    .sp2 .icons{
+        float:left;
+    }
+    .sp-3 {
+        padding-left: 38px;
+    }
+    .expert_row {
+        width: 87%;
+    }
+    .contact_row {
+        width: 84%;
+    }
+    .contact-right-image {
+        font-size: 53px;
+    }
+
+
     ul li{
-        font-size: 12px;
+        font-size: 11px;
     }
     p {
-        font-size: 12px;
+        font-size: 11px;
     }
     h1{
         font-size:30px;

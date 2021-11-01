@@ -41,7 +41,7 @@ html,body{
 .navbar-light .navbar-nav .nav-link {
   font-size:13px;
   font-weight: bold;
-  color:#503a45;
+  color:#000;
 }
 .carousel-caption h1{
   font-weight: 500;
@@ -114,6 +114,9 @@ color:#ec5598;
   background-size: 100% 800px;
   padding-bottom:91px;
 }
+.spa2{
+  width:93%;
+}
 .separator{
   padding:30px;
 }
@@ -174,6 +177,9 @@ padding-right:55px;
 .service-shadow:hover{
  box-shadow: 5px 10px 15px #888888;
 }
+.service_list{
+  width:84%;
+}
 /* Our Services End */
 /* Our Expert Start */
 #expert a i{
@@ -186,9 +192,18 @@ padding-right:55px;
 }
 .expert-section img{
   border:2px solid #ec5598;
+  width:93%;
+}
+.expert_row{
+width:90%;
+margin:auto;
 }
 /* Our Expert End */
 /* Contact Us Start */
+.contact_row{
+  width:88%;
+  margin:auto;
+}
 #contact{
   margin-top:128px;
   margin-bottom:100px;
@@ -239,6 +254,10 @@ padding-right:55px;
 }
 /* Contact Us End */
 /* Footer Start */
+.footer_row{
+  width:90%;
+  margin:auto;
+}
 #footer{
   margin-top:-44px;
 }
